@@ -38,26 +38,26 @@ html, body {
 }
 
 .introLine {
-	font-size: 4.8rem;
+	font-size: 4.5rem;
 	line-height: 20%;
 }
 
 .introLineSecondary {
-	font-size: 2.4rem;
+	font-size: 2.2rem;
 	font-weight: 300;
 }
 
 .navBar {
 	display: flex;
 	flex-direction: row;
-	font-size: 2.1rem;
+	font-size: 1.9rem;
 	margin-left: 75%;
 	position: absolute;
-	top: 3%;
+	top: 3.5%;
 }
 
 .about {
-	transition: color 0.3s ease;
+	transition: color 0.2s ease;
 }
 
 .about:hover {
