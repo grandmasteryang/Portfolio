@@ -19,6 +19,7 @@ html, body {
 .introPage {
 	height: 100%;
 	width: 100%;
+	position: relative;
 }
 
 .projectsPage {
@@ -29,10 +30,11 @@ html, body {
 
 .introText {
 	text-align: center;
-	margin-left: auto;
-	position: relative;
-	top: 25%;
-	transform: translateY(-50%);
+	position: absolute;
+	top: 31%;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
 }
 
 .introLine {
@@ -49,9 +51,9 @@ html, body {
 	display: flex;
 	flex-direction: row;
 	font-size: 2.1rem;
-	font-weight: 300;
-	margin-top: 2rem;
 	margin-left: 75%;
+	position: absolute;
+	top: 3%;
 }
 
 .about {
@@ -75,10 +77,11 @@ html, body {
 
 .downArrowContainer {
 	text-align: center;
-	margin-left: auto;
-	position: relative;
-	top: 64%;
-	transform: translateY(-50%);
+	position: absolute;
+	bottom: 2%;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
 }
 
 .downArrow {
