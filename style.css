@@ -10,7 +10,6 @@ html, body {
     height: 100%;
     margin: 0;
     padding: 0;
-    overflow-x: hidden; 
     font-family: 'Open Sans Light', sans-serif;
     font-size: 62.5%;
     color: #777777;
@@ -26,6 +25,11 @@ html, body {
 	height: 100%;
 	width: 100%;
 	background-color: #F0F0F0;
+}
+
+.contactPage {
+	height: 100%;
+	width: 100%;
 }
 
 .introText {
@@ -68,33 +72,23 @@ html, body {
 .navBar {
 	display: flex;
 	flex-direction: row;
-	font-size: 1.8rem;
-	margin-left: 70%;
+	font-size: 1.9rem;
+	margin-left: 72%;
 	position: absolute;
 	top: 3.5%;
 }
 
-#home {
+#work {
 	transition: color 0.2s ease;
 }
 
-#home:hover {
-	cursor: pointer;
-	color: #009EDB !important;
-}
-
-#about {
-	transition: color 0.2s ease;
-	margin-left: 1.9rem;
-}
-
-#about:hover {
+#work:hover {
 	cursor: pointer;
 	color: #009EDB !important;
 }
 
 #reachOut {
-	transition: color 0.3s ease;
+	transition: color 0.2s ease;
 	margin-left: 1.9rem;
 }
 
@@ -114,11 +108,15 @@ html, body {
 
 .downArrow {
 	cursor: pointer;
-	font-size: 3.5rem !important;
+	font-size: 4rem !important;
 }
 
-#headshot {
-	width: 300px;
+.upArrow {
+	cursor: pointer;
+	font-size: 3.5rem !important;
+	position: fixed;
+	right: 5px;
+	bottom: 5px;
 }
 
 /*utility classes*/
